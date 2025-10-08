@@ -1,0 +1,424 @@
+ 
+PROJETO INTEGRADOR
+
+ECOLOGIC TECH – ECOOL TECH
+
+LÉO A. ZAMBONE NETO (RA 130003731).
+DENIS PELISSATO LOPES (RA 220020680).
+GABRIEL BATISTELA JR. (RA 230023078).
+RAUL BERGAMO ESPERANÇA (RA 230023678).
+NATAN VINÍCIUS ALBUQUERQUE (RA 230023683). 
+
+ENGENHARIA DA COMPUTAÇÃO
+
+SOLUÇÕES BASEADAS EM INTELIGÊNCIA ARTIFICIAL E COMPUTACIONAL - 06G242 - 153461 - TURMA DO 5º SEMESTRE NOTURNO MATRIZ 2023
+
+
+
+
+
+
+
+ 
+     
+UNISAL | CENTRO UNIVERSITÁRIO SALESIANO DE SÃO PAULO
+2025
+ECOLOGIC TECH – ECOOLTECH.COM
+1. INTRODUÇÃO
+A evolução tecnológica tem proporcionado inúmeros benefícios para a sociedade, desde a melhoria na qualidade de vida até o avanço em diversas áreas do conhecimento, assim como na saúde, educação e locomoção. Grande parte dos avanços trouxeram consigo ambientes de facilidade e desapego, já que a cada mês, semestre ou ano, é lançado um novo produto com melhores avaliações dentro de cada segmento. No entanto, a constante inovação mercadológica, e a rápida obsolescência dos equipamentos eletrônicos, tem levado a um aumento significativo no volume de resíduos eletrônicos, trazendo consigo um problema emergente e de grande impacto ambiental: O descarte incorreto de equipamentos eletrônicos.
+O descarte eletrônico, ou e-waste é descrito principalmente como lixo gerado por todas as peças e itens de equipamentos elétricos e eletrônicos (EEE) que são descartados sem a intenção prévia de ser reutilizado (M. Shahabuddin at al, 2023), incluindo assim uma variedade de dispositivos comuns ao dia a dia, celulares, computadores, televisões, ferramentas elétricas e eletrônicas, câmeras, equipamentos médicos, esportivos, de lazer, e qualquer outro objeto que utilize energia elétrica para seu funcionamento. Dentre eles, existem diferentes níveis de preocupação pessoal e ambiental a depender de quão tóxico, ou precioso o equipamento ou componente é. Existem diversos materiais que compõe cada equipamento, dentre eles: Ferro e Aço (~50%), outros Metais (~13%), Plástico (~21%), outros materiais como vidro, madeira, cerâmica e borracha compõe cerca de 16%. O grande problema na perspectiva patológica e poluente está no grupo ‘outros metais’, uma vez que, engloba materiais como; Platina (Pt), Ouro (Au), Cádmio (Cd), Prata (Ag), Paládio (Pd), Zinco (Zn), Chumbo (Pb), Cobre (Cu), Cobalto (Co), Níquel (Ni), 
+ 
+Ítrio (Y), Lantânio (La), Cério (Ce), Neodímio (Nd), Mercúrio (Hg), Arsênico (As), Berílio (Be), (Hridoy at al, 2022). Alguns desses metais são denominados como “metais pesados”, sendo assim, associados à contaminação, toxidade e ‘eco toxidade’. Sendo materiais muitas vezes reativos e bio acumuláveis, ou seja, organismos não são capazes de eliminá-los (Verônica at al, 2011). A demonstração danosa de tais metais está presente na figura 1.   
+Demonstração Danosa ao Organismo em Referência aos Metais Pesados.                            Figura 1. - Amanda Silva Farias - Adaptado: Análise da contaminação do solo por metais potencialmente tóxicos em locais de reciclagem de resíduos eletrônicos. 
+ 
+Estes metais têm sido usados em escalas cada vez maiores na produção de eletrônicos, como PCBs/PCIs (Placas de Circuito Impresso), impressoras, computadores, geladeira, televisão, máquinas em geral, como as de café, e lavar. Em suma maioria os equipamentos eletrônicos têm algo em comum, as PCBs, placas essas que normalmente utiliza-se ligas de Pb-Sn (Chumbo – Pb + Estanho - Sn) para efetuar as soldas do circuito impresso (André at al, 2013). É importante notar, como demonstrado na Figura 2, que o aumento de lixo eletrônico tem crescido a cada ano de forma linear, chegando a 65 Milhões de Toneladas Métricas, ou, 71,6 Milhões de Toneladas no ano de 2024.
+-	Produção Global de Lixo Eletrônico de 2010 a 2019 com projeções de 2020 a 2030.
+ 
+Figura 2. H. Roy el al. – Helyon 8 (2022) e09802
+Além dos desafios estruturais relacionados ao descarte inadequado de resíduos eletrônicos, outro fator crítico que agrava esse problema é a falta de informação e de conscientização da população a respeito dos riscos ambientais e sociais  associados ao e-waste. A ausência de ações educativas contínuas contribui para o desconhecimento dos impactos do descarte incorreto e dificulta a adoção de práticas sustentáveis no cotidiano. Portanto, promover a educação ambiental se torna um passo essencial na construção de uma sociedade mais consciente, capaz de refletir sobre seus hábitos e buscar soluções coletivas e responsáveis para o destino dos resíduos eletrônicos.
+2. FUNDAMENTAÇÃO TEÓRICA
+A trajetória, descarte e crescimento dos resíduos de equipamentos elétricos e eletrônicos (REEE) são uma preocupação crescente em escala global, especialmente em países em desenvolvimento, onde grande parte dos resíduos é descartada em lixos urbanos recicláveis ou comuns (Dhiego et al., 2017). Enquanto países como Estados Unidos, Canadá, Japão e grande parte do continente europeu implementaram políticas públicas eficazes para o descarte correto desses equipamentos, nos países desenvolvidos as empresas têm responsabilidade estendida do produto (REP) sobre os equipamentos fabricados. Isso significa que os fabricantes são encarregados pelo descarte ambientalmente seguro dos equipamentos ao fim de sua vida útil, o que garantirá o tratamento adequado de todos os resíduos (Sibel et al., 2012).
+No entanto, em países em desenvolvimento, como o Brasil, o cenário será mais desafiador. O descarte inadequado dos resíduos é uma realidade, e uma grande parcela desses materiais será eliminada em lixos comuns ou recicláveis domésticos, sendo direcionada a aterros sanitários, e não a instalações de reciclagem especializadas (Dhiego et al., 2017). O Brasil é o segundo maior produtor de lixo eletrônico das Américas, com uma média de 2,14 milhões de toneladas ao ano e 10,2 kg por habitante, ficando atrás apenas dos Estados Unidos, que produzem cerca de 6,9 milhões de toneladas ao ano e 21 kg por habitante (Vanessa et al., 2020). Apesar da existência de leis e regulamentos para a gestão de REEE, a eficácia de sua implementação será limitada. A falta de infraestrutura adequada, recursos financeiros e conscientização pública se tornarão barreiras significativas que impedirão o tratamento e a reciclagem eficiente desses resíduos no Brasil. Além disso, a informalidade no setor de reciclagem contribuirá para a dificuldade de rastreabilidade e gerenciamento sustentável do lixo eletrônico.                       Para promover a conscientização sobre o descarte inadequado de lixo eletrônico, será desenvolvido o website EcoolTech, cuja missão será a disseminação de informações sobre a importância do descarte correto de resíduos eletrônicos e as consequências ambientais do descarte incorreto. Essa difusão de conhecimento será realizada por meio de uma interface acessível e interativa, permitindo aos usuários aprender sobre os riscos do e-waste, alternativas de reciclagem e pontos de coleta disponíveis.
+No desenvolvimento do EcoolTech, a equipe adotará uma abordagem colaborativa fundamentada em metodologias ágeis, otimizando a comunicação e a organização do trabalho. Com o uso de Git e GitHub, o controle de versão será gerenciado de forma eficiente, permitindo rastreamento contínuo e colaboração em tempo real. A comunicação será estruturada em plataformas como Google Meet e Microsoft Teams, integradas ao calendário para facilitar o agendamento de reuniões e prazos. O gerenciamento das tarefas seguirá a metodologia Scrum, com sprints curtos e uso de quadro Kanban, promovendo visibilidade e responsabilidade no progresso do projeto.
+Além disso, será implementada uma estratégia de Integração Contínua (CI) com ferramentas como Jenkins e GitHub Actions, garantindo que o código seja testado a cada nova iteração. A técnica de Desenvolvimento Guiado por Testes (TDD) será utilizada para assegurar a qualidade desde o início do desenvolvimento. A documentação e o detalhamento dos fluxos do sistema serão realizados em ferramentas como LucidChart e Figma, proporcionando uma visão detalhada da estrutura e requisitos da plataforma. Essa combinação de práticas colaborativas e tecnológicas permitirá um desenvolvimento alinhado com os objetivos de qualidade, segurança e funcionalidade do EcoolTech, contribuindo diretamente para a missão educacional e sustentável da plataforma. Nesse contexto, torna-se evidente que a educação ambiental precisa ocupar um papel central nas estratégias de enfrentamento ao problema do lixo eletrônico. A promoção de conhecimento acessível, aliado ao estímulo à participação ativa da sociedade, é fundamental para gerar mudanças efetivas de comportamento. Estudos demonstram que o engajamento individual é significativamente ampliado quando os usuários são convidados a refletir sobre sua própria relação com o problema, a partir de dinâmicas educativas e interativas. Além disso, a criação de espaços para diálogo e compartilhamento de  experiências contribui para a construção coletiva de uma cultura de sustentabilidade, que não depende apenas de políticas públicas, mas da colaboração consciente de todos os agentes sociais.
+
+3. METODOLOGIA
+Para o desenvolvimento do EcoolTech, será adotada uma metodologia que integra práticas modernas e colaborativas, focando em eficiência na comunicação, organização de tarefas e controle de qualidade. Serão utilizadas diversas ferramentas e técnicas que facilitarão o acompanhamento das atividades e o alinhamento constante da equipe com os objetivos do projeto.
+Versionamento de Arquivos e Código
+O controle de versão será feito com Git e GitHub, garantindo o rastreamento detalhado de cada modificação no código-fonte e a possibilidade de colaboração em tempo real. Cada membro da equipe manterá uma cópia local do repositório por meio do Git, permitindo o desenvolvimento independente das funcionalidades, que, após testadas, serão integradas ao repositório principal no GitHub. Essa integração centralizada permitirá revisões de código e controle de versões, assegurando a recuperação de versões anteriores se necessário e promovendo a continuidade do projeto sem interrupções.
+Comunicação e Reuniões
+A comunicação entre a equipe será estruturada em plataformas como Google Meet e Microsoft Teams, aproveitando os pontos fortes de ambas as ferramentas. O Google Meet servirá para reuniões rápidas e ágeis, com fácil acesso pelo Google Calendar para o agendamento de prazos e atualizações frequentes. Para discussões mais detalhadas e compartilhamento de documentos do Office 365, será utilizado o Microsoft Teams, que centralizará arquivos e permitirá uma comunicação mais profunda entre os membros.
+ No contexto das relações futuras com parceiros, essas mesmas ferramentas também serão empregadas para facilitar a colaboração e integração com organizações e entidades externas que apoiem a missão do EcoolTech. As reuniões com parceiros ocorrerão de forma periódica, priorizando atualizações sobre conteúdo e ecopontos, bem como discussões sobre eventos e iniciativas conjuntas. Essa comunicação estabelecerá um canal contínuo para alinhar os objetivos do EcoolTech com as metas e expectativas dos parceiros, promovendo engajamento e sinergia nas iniciativas de conscientização sobre o descarte correto de resíduos eletrônicos.
+Gerenciamento de Tarefas e Divisão de Responsabilidades
+A equipe seguirá a metodologia ágil Scrum, dividindo o desenvolvimento em sprints, com duração média de uma a duas semanas, cada um contendo objetivos específicos e metas de entregas. O progresso será visualizado em um quadro Kanban, que exibirá o status de cada tarefa em colunas como “A Fazer,” “Em Progresso” e “Concluído.” Isso permitirá uma visão geral do avanço do projeto, além de promover transparência e responsabilidade individual. Para estimativas de esforço e planejamento de tarefas, a técnica Planning Poker será utilizada, incentivando que cada membro contribua na análise e definição de prazos, gerando consenso nas avaliações.
+Documentação e Modelagem
+A modelagem de Casos de Uso será adotada para documentar os requisitos do sistema e as interações dos usuários com o EcoolTech. Essa modelagem facilitará a compreensão dos requisitos, detalhando os atores envolvidos, pré-condições, pós-condições e fluxos de cada caso. Para a criação de diagramas, será utilizado o LucidChart, que permitirá a representação visual dos fluxos do sistema e a estrutura das funcionalidades, proporcionando clareza para a equipe e facilitando o entendimento das necessidades do projeto. Essa documentação visual servirá como uma base de referência para o desenvolvimento, assegurando que as implementações atendam aos requisitos e funcionalidades planejadas do EcoolTech.
+Desenvolvimento e Testes
+ Para assegurar a qualidade do código, será implementada uma estratégia de Integração Contínua (CI) com ferramentas como Jenkins e GitHub Actions, automatizando o processo de compilação e testes a cada nova alteração no código. Esse processo permitirá a detecção precoce de erros e inconsistências, garantindo que o código desenvolvido seja continuamente validado. O Desenvolvimento Guiado por Testes (TDD) complementará essa estratégia, com a criação de testes unitários que orientarão a implementação, assegurando que cada funcionalidade atenda aos requisitos desde as primeiras etapas do desenvolvimento.
+Infraestrutura e Implantação
+Para a implantação do sistema, será adotada uma abordagem DevOps, que automatizará processos de deploy e facilitará a comunicação entre as equipes de desenvolvimento e operações. A utilização de contêineres com Docker permitirá a replicação do ambiente de desenvolvimento em produção, garantindo consistência e minimizando falhas. Essa infraestrutura oferecerá uma base robusta e escalável para o EcoolTech, facilitando tanto a manutenção quanto a adaptação do sistema às demandas de uso.
+Tecnologias para Front-End e Back-End
+O back-end será desenvolvido em PHP, com MySQL como banco de dados, sendo administrado pelo phpMyAdmin. Já o front-end será estruturado em HTML e CSS, contando com o Bootstrap 5 para garantir responsividade em diversos dispositivos, enquanto o JavaScript será utilizado para funcionalidades interativas. Essa divisão permitirá que a equipe trabalhe de maneira modular, desenvolvendo e integrando as funcionalidades essenciais do EcoolTech de forma eficiente.
+Expansão Funcional do Sistema
+Visando dar continuidade ao desenvolvimento da plataforma EcoolTech e aprimorar as estratégias de conscientização dos usuários, serão incorporadas três novas funcionalidades ao sistema. Essas funcionalidades têm como principal objetivo ampliar a interação, promover a participação ativa dos usuários e reforçar o caráter educativo do projeto.
+ 
+Formulário de Conscientização
+Será implementado um formulário destinado a coletar informações sobre o nível atual de conhecimento dos usuários em relação ao descarte adequado de resíduos eletrônicos. O formulário permitirá identificar as principais dificuldades e percepções do público, auxiliando no direcionamento de campanhas educativas e no desenvolvimento de conteúdos futuros. As respostas dos usuários serão armazenadas em banco de dados, de modo a possibilitar análises estatísticas, sempre respeitando os princípios de privacidade e segurança das informações.
+Gamificação Educacional
+Será desenvolvida uma funcionalidade de gamificação com foco na interação de professores e crianças dentro da plataforma. O objetivo desta funcionalidade é estimular a aprendizagem de forma lúdica, por meio de atividades e desafios relacionados à educação ambiental. A gamificação permitirá que os participantes acumulem pontos e conquistas a partir do cumprimento de tarefas propostas, promovendo o engajamento e a motivação contínua dos usuários.
+Seção de Comentários
+Com o objetivo de agregar um espaço social dentro do EcoolTech, será implementada uma seção de comentários nas principais páginas de conteúdo da plataforma. Essa funcionalidade permitirá que os usuários cadastrados possam compartilhar experiências, tirar dúvidas e interagir entre si, ampliando a troca de informações relacionadas ao descarte de resíduos eletrônicos. Os comentários inseridos serão moderados a fim de garantir um ambiente respeitoso e adequado para todos os participantes.
+Todas essas novas funcionalidades serão integradas ao sistema seguindo os mesmos processos de desenvolvimento adotados anteriormente, com controle de 
+ versionamento pelo Git e GitHub, aplicação de testes automatizados por meio de integração contínua (CI) com Jenkins e GitHub Actions, além da documentação dos fluxos em LucidChart. A utilização dessas práticas visa garantir a qualidade, segurança e eficiência no desenvolvimento das novas funcionalidades, mantendo o padrão de organização e estrutura estabelecido no projeto EcoolTech.   
+4. RESULTADOS E REFLEXÕES:
+Para o desenvolvimento do EcoolTech, a equipe adotou uma abordagem moderna e colaborativa, integrando diversas tecnologias para aprimorar a comunicação e o trabalho em grupo.
+Versionamento de Arquivos e Código:
+Para garantir o controle eficiente das versões e o acompanhamento das modificações no código-fonte, a equipe adotou o uso do Git e GitHub. Essas ferramentas permitiram o rastreamento de mudanças realizadas, a colaboração simultânea entre os membros e a organização de diferentes versões do projeto. Dessa forma, todos os desenvolvedores puderam monitorar a evolução dos códigos, facilitando o trabalho colaborativo e assegurando a integridade do projeto ao longo do tempo.
+Comunicação e Reuniões:
+A comunicação entre os membros da equipe foi estruturada com o uso de múltiplas plataformas, assegurando acessibilidade e continuidade das discussões. Google Meet foi escolhido para videoconferências rápidas, oferecendo fácil integração com o Google Calendar para agendamento e organização de prazos. Em reuniões mais extensas, utilizou-se o Microsoft Teams, que, em conjunto com o Office 365, proporcionou um ambiente unificado para documentos. Essa abordagem favoreceu um fluxo de trabalho ágil e contribuiu para a coesão e produtividade da equipe ao longo das sprints.
+ Divisão de Tarefas e Gerenciamento de Projetos:
+Adotou-se a metodologia ágil Scrum, promovendo uma organização cíclica do trabalho, dividida em sprints de curta duração. Essa prática foi acompanhada pelo uso do quadro Kanban, que permitiu a visualização clara do progresso de cada tarefa e a responsabilidade individual de cada membro. Para garantir uma estimativa precisa do tempo e esforço necessários para cada tarefa, a técnica de Planning Poker foi utilizada, incentivando o engajamento dos participantes na avaliação do escopo das atividades.
+Desenvolvimento e Testes:
+Para assegurar a qualidade do código, a equipe implementou uma estratégia de Integração Contínua (CI) por meio de ferramentas como Jenkins e GitHub Actions, automatizando o processo de build e teste a cada nova alteração. Adicionalmente, a abordagem de Desenvolvimento Guiado por Testes (TDD) foi aplicada, garantindo que o código fosse validado desde as primeiras etapas do desenvolvimento e reduzindo significativamente a ocorrência de erros em produção.
+Documentação e Diagramação:
+O processo de documentação seguiu o modelo de Casos de Uso, que auxiliou na definição e registro dos requisitos funcionais e não funcionais do sistema. Ferramentas como Trello foram integradas para organizar e acompanhar o desenvolvimento dos requisitos. Além disso, diagramas foram criados com o uso do LucidChart proporcionando uma visão detalhada dos fluxos e estruturas de dados.
+
+
+ A arquitetura do sistema foi desenvolvida com base em princípios de orientação a objetos, e o Diagrama de Classes UML demostrado na Figura 3 detalha as principais classes e funcionalidades do sistema EcoolTech. As classes incluem entidades como Usuário, Admin, Conteúdo, Localizador de Ecopontos, e Gamificação. Cada classe encapsula os atributos e métodos necessários para a operação da plataforma. A integração com APIs para localizar ecopontos e a implementação de funcionalidades de gamificação, como desafios e pontuações, tem função de reforçar o objetivo educacional e engajador do site.
+
+ 
+Figura 3. Elaborada pelos autores
+
+ Visando uma melhor organização do projeto foi organizado através de um diagrama de casos de uso, envolvendo todos os agentes ligados ao projeto e suas respectivas ações, conforme determinado pela engenharia de software o diagrama de casos de uso do EcoolTech foi criado com o objetivo de estruturar e representar de maneira clara e objetiva as interações entre os diferentes tipos de usuários e o sistema. O mesmo segue os princípios da engenharia de software, que auxiliam na visualização das funcionalidades essenciais e na organização do desenvolvimento. A utilização deste diagrama no projeto EcoolTech permite uma análise mais detalhada das responsabilidades de cada agente, além de servir como guia para o desenvolvimento de funcionalidades, garantindo que todos os requisitos dos agentes sejam atendidos de forma eficaz.
+Assim, detalhamos cada um dos agentes representados no diagrama e suas principais ações, destacando as interações relevantes para o cumprimento dos objetivos do EcoolTech.
+1. Usuário
+O Usuário representa o público geral que utiliza a plataforma para acessar conteúdos sobre descarte consciente de resíduos eletrônicos e funcionalidades de consulta a ecopontos. Esse agente é o principal beneficiário das funcionalidades educativas e informativas da plataforma.
+•	Realizar Login: Permite ao usuário acessar o sistema com suas credenciais (e-mail e senha). Este caso de uso inclui a verificação de senha e exibe mensagens de erro em caso de falhas no login.
+•	Consultar Ecopontos: Habilita o usuário a pesquisar ecopontos disponíveis na sua região, com base na integração do sistema com a API de localização.
+•	Editar Perfil e Excluir Conta: Fornecem opções de gerenciamento de informações pessoais, permitindo que o usuário atualize seus dados ou remova sua conta do sistema, respectivamente.
+•	Receber Alertas: Funcionalidade que permite ao usuário habilitar notificações sobre atualizações e novos conteúdos relacionados a pontos de reciclagem e eventos, reforçando o objetivo educativo do projeto.
+ 
+2. Convidado
+O Convidado é um usuário que ainda não realizou cadastro no sistema, mas que tem permissão para visualizar certos conteúdos informativos de maneira limitada. Este perfil permite ao visitante conhecer o propósito do EcoolTech antes de se registrar.
+•	Acessar Conteúdo: Permite ao convidado visualizar conteúdos informativos básicos sobre descarte eletrônico sem a necessidade de cadastro, promovendo o conhecimento inicial.
+•	Realizar Cadastro: O convidado tem a opção de se cadastrar no sistema para obter acesso completo às funcionalidades, incentivando a adesão à plataforma.
+3. Administrador
+O Administrador é um usuário com permissões avançadas e responsabilidades de gerenciamento, fundamental para a manutenção e controle do conteúdo e dos usuários na plataforma.
+•	Gerenciar Usuários: Permite o controle e administração das contas de usuários, incluindo funções de moderação e remoção de contas, se necessário.
+•	Criar, Editar e Remover Conteúdo: Dá ao administrador a capacidade de manter o conteúdo da plataforma atualizado, publicando novas informações e corrigindo ou excluindo dados quando apropriado.
+•	Visualizar Estatísticas: O administrador tem acesso a métricas e estatísticas de uso da plataforma, o que auxilia na análise de engajamento dos usuários e na identificação de áreas para melhorias.
+•	Enviar Alertas: Permite ao administrador enviar notificações relevantes e alertas para os usuários, garantindo que todos estejam cientes das atualizações mais recentes e dos eventos relacionados ao tema do projeto.
+ 
+4. Parceiro
+O Parceiro representa uma entidade colaboradora que contribui para o projeto com informações e conteúdos úteis, especialmente sobre ecopontos e eventos de reciclagem.
+•	Criar Conteúdo: Funcionalidade que permite aos parceiros inserir informações sobre pontos de coleta ou eventos, ampliando o alcance da plataforma.
+•	Editar Conteúdo: Os parceiros podem atualizar ou corrigir informações já publicadas, mantendo o conteúdo da plataforma relevante e preciso.
+5. Localizador
+O Localizador é um agente funcional que representa a integração do EcoolTech com sistemas de mapas externos, como a API do Google Maps, para fornecer a localização dos ecopontos.
+•	Fornecer Localização de Ecopontos: Através da API de mapas, o sistema obtém e exibe informações sobre ecopontos próximos ao usuário, tornando o acesso aos pontos de descarte mais fácil e eficiente.
+•	Gerar Link de Mapa e Redirecionar para Link do Mapa: Estas ações permitem que o sistema gere e redirecione o usuário para um link de mapa interativo, facilitando a navegação até os ecopontos e promovendo a usabilidade.
+6. API
+A API é o componente de software que possibilita a comunicação entre o EcoolTech e outros serviços externos. No contexto deste projeto, a API garante que as funcionalidades de localização e consulta estejam sempre atualizadas e operacionais.
+•	A API fornece as ferramentas necessárias para que o sistema mantenha a integração com o serviço de mapas e outros serviços de terceiros, essencial para a funcionalidade de consulta de ecopontos.
+ A Figura 4 mostra o diagrama de casos de uso confeccionado: 
+Figura 4. Elaborada pelos autores
+ As narrativas de casos de uso do sistema EcoolTech foram modeladas para descrever de forma clara e objetiva os principais fluxos de interação entre os usuários e o sistema. Cada narrativa detalha as funcionalidades essenciais e inclui informações sobre os atores envolvidos, pré-condições, pós-condições e requisitos, tanto funcionais quanto não funcionais. Essa modelagem tem como objetivo garantir que todas as operações fundamentais do sistema sejam documentadas e compreendidas desde o desenvolvimento inicial, promovendo uma implementação alinhada às necessidades dos usuários e requisitos de segurança.
+Caso de Uso: Cadastro de Usuário
+Atores: Usuário
+Descrição do caso de uso: Permite que um novo usuário crie uma conta no sistema, fornecendo informações pessoais como nome completo, e-mail, senha, data de nascimento, telefone e endereço completo.
+Pré-condições:
+•	O usuário deve ter acesso à internet.
+•	O usuário deve possuir um endereço de e-mail válido.
+Pós-condições:
+•	O usuário é registrado no sistema e pode acessar sua conta.
+•	Um e-mail de boas-vindas é enviado para o usuário.
+
+
+ Requisitos contemplados:
+•	RF01 - Cadastro de usuário
+•	RNF02 - Segurança (armazenamento seguro da senha)
+•	RNF03 - Usabilidade
+Caminho principal:
+1.	O usuário acessa a página de cadastro do sistema.
+2.	O sistema exibe o formulário de cadastro solicitando informações pessoais.
+3.	O usuário preenche o formulário e clica no botão "Cadastrar".
+4.	O sistema valida as informações e verifica se o e-mail já está registrado.
+5.	O sistema cria uma nova conta de usuário e exibe uma mensagem de confirmação.
+6.	O sistema envia um e-mail de boas-vindas para o usuário.
+Caminhos alternativos:
+•	4a. E-mail já registrado: O sistema exibe uma mensagem dizendo que o email já está cadastrado e sugere que o usuário redefina a senha.
+•	4b. Dados inválidos: O sistema exibe uma mensagem de erro solicitando correção das informações ou preenchimento de campos faltantes.
+
+
+ Caso de Uso: Login
+Atores: Usuário
+Descrição do caso de uso: Permite que o usuário acesse sua conta usando um e-mail e senha cadastrados.
+Pré-condições:
+•	O usuário deve estar registrado no sistema.
+Pós-condições:
+•	O usuário tem acesso à sua conta no sistema.
+Requisitos contemplados:
+•	RF02 - Autenticação de usuário
+•	RNF02 - Segurança (validação de senha)
+Caminho principal:
+1.	O usuário acessa a página de login do sistema.
+2.	O usuário insere seu e-mail e senha.
+3.	O sistema valida as credenciais fornecidas.
+4.	O sistema permite o acesso à conta do usuário.
+
+
+ Caminhos alternativos:
+•	3a. Credenciais inválidas: O sistema exibe uma mensagem de erro informando que o e-mail ou a senha estão incorretos e sugere que o usuário redefina.
+•	3b. Credenciais inválidas: O sistema exibe uma mensagem de erro informando que o e-mail não se encontra cadastrado e sugere que o usuário se cadastre.
+
+Caso de Uso: Redefinição de Senha
+Atores: Usuário
+Descrição do caso de uso: Permite que o usuário recupere o acesso à sua conta ao redefinir a senha caso a tenha esquecido.
+Pré-condições:
+•	O usuário deve ter acesso ao e-mail cadastrado no sistema.
+Pós-condições:
+•	A senha do usuário é atualizada no sistema.
+Requisitos contemplados:
+•	RF03 - Recuperação de senha
+•	RNF02 - Segurança (verificação via e-mail)
+
+ Caminho principal:
+1.	O usuário acessa a página de recuperação de senha.
+2.	O sistema solicita o e-mail associado à conta.
+3.	O sistema envia um link de redefinição de senha para o e-mail fornecido com tokenização para garantir a segurança.
+4.	O usuário clica no link e é redirecionado para a página de redefinição de senha.
+5.	O usuário insere uma nova senha e confirma a alteração.
+6.	O sistema atualiza a senha e exibe uma mensagem de sucesso.
+Caminhos alternativos:
+•	2a. E-mail não registrado: O sistema exibe uma mensagem informando que o e-mail não está associado a nenhuma conta.
+
+Caso de Uso: Gerenciamento de Conteúdo
+Atores: Administrador
+Descrição do caso de uso: O administrador gerencia os conteúdos publicados na plataforma, podendo criar, editar ou excluir informações sobre ecopontos e reciclagem.
+
+
+ Pré-condições:
+•	O administrador deve estar logado no sistema com privilégios de gerenciamento.
+Pós-condições:
+•	Os conteúdos são atualizados no sistema, refletindo as mudanças realizadas.
+•	Caso um conteúdo seja excluído, ele é removido da base de dados e não aparece mais para os usuários.
+Requisitos contemplados:
+•	RF04 - Criação de conteúdo
+•	RF05 - Edição de conteúdo
+•	RF06 - Exclusão de conteúdo
+•	RF07 - Moderação de comentários
+•	RNF02 - Segurança (acesso autorizado)
+
+
+
+
+
+ Caminho principal:
+1.	O administrador acessa a área de gerenciamento de conteúdo.
+2.	O sistema exibe a lista de conteúdos disponíveis.
+3.	O administrador seleciona a opção de adicionar um novo conteúdo.
+4.	O sistema exibe um formulário para preenchimento das informações do conteúdo.
+5.	O administrador preenche o formulário e salva as informações.
+6.	O sistema valida os dados e adiciona o novo conteúdo à plataforma.
+7.	O conteúdo é disponibilizado para todos os usuários.
+Caminhos alternativos:
+•	6a. Dados inválidos: Se algum campo obrigatório não for preenchido corretamente, o sistema exibe uma mensagem de erro solicitando a correção dos dados antes de salvar.
+•	3a. Edição de conteúdo: O administrador pode escolher editar um conteúdo existente, modificar os dados e salvar as alterações.
+•	3b. Exclusão de conteúdo: O administrador pode optar por excluir um conteúdo, e o sistema solicita a confirmação antes de remover permanentemente.
+
+
+
+ Caso de Uso: Recebimento de E-mail Informativo
+Atores: Usuário, Sistema de CRM
+Descrição do caso de uso: O sistema envia e-mails informativos sobre atualizações, novos conteúdos e eventos para os usuários cadastrados no newsletter.
+Pré-condições:
+•	O usuário deve estar cadastrado no newsletter.
+Pós-condições:
+•	O usuário recebe o e-mail informativo com as novidades.
+Requisitos contemplados:
+•	RF06 - Sistema de newsletter
+•	RNF03 - Usabilidade
+•	RNF02 - Segurança (envio de e-mails via protocolo SMTP)
+Caminho principal:
+1.	O sistema identifica usuários cadastrados no newsletter.
+2.	O Parceiro cria um e-mail informativo.
+3.	O sistema envia o e-mail para os usuários cadastrados.
+4.	O usuário recebe o e-mail em sua caixa de entrada.
+
+ Caminhos alternativos:
+•	3a. Falha no envio: O sistema armazena a lista de e-mails não enviados e tenta reprocessar o envio posteriormente.
+
+Caso de Uso: Consulta de Ecopontos
+Atores: Usuário, API do Google Maps
+Descrição do caso de uso: O usuário consulta os ecopontos disponíveis na região usando a funcionalidade de mapa interativo, que utiliza a API do Google Maps para buscar e exibir a localização dos pontos de coleta de materiais recicláveis.
+Pré-condições:
+•	O usuário deve estar logado no sistema.
+•	A API do Google Maps deve estar funcional e integrada ao sistema.
+Pós-condições:
+•	O mapa é exibido com os ecopontos disponíveis na região do usuário.
+•	Se a localização não for encontrada, uma mensagem de erro é mostrada ao usuário.
+
+
+
+ Requisitos contemplados:
+•	RF01 - Uso da localização
+•	RF02 - Busca de postos de reciclagem
+•	RF03 - Mapa interativo
+•	RNF01 - API Google Maps
+•	RNF02 - Segurança (comunicação via HTTPS)
+Caminho principal:
+1.	O usuário acessa a área de consulta de ecopontos no sistema.
+2.	O sistema solicita a localização do usuário usando a API do Google Maps.
+3.	A API do Google Maps retorna à localização atual e os pontos de coleta próximos.
+4.	O sistema exibe um mapa interativo com os ecopontos encontrados.
+5.	O usuário navega pelo mapa para visualizar os detalhes de cada ecoponto.
+Caminhos alternativos:
+•	3a. Localização indisponível: Se a API do Google Maps não conseguir obter a localização, o sistema exibe uma mensagem informando que não foi possível acessar a localização atual do usuário e sugere uma busca manual.
+•	5a. Nenhum ecoponto encontrado: Se não houver ecopontos próximos, o sistema exibe uma mensagem informando que não há pontos de coleta disponíveis na área selecionada.
+
+ 
+Requisitos Funcionais:
+- Listagem de conteúdo
+- Criação de conteúdo
+- Edição de conteúdo
+- Exclusão de conteúdo
+- Sistema de pesquisa de conteúdo
+- Exibição de resultados
+- Sistema de notificações para conteúdo desejado 
+- CRM para newsletter
+- Sistema de comentários
+- Moderação aos comentários
+- Uso da localização
+- Busca de postos de reciclagem
+- Mapa interativo
+
+
+
+
+ 
+Requisitos não funcionais:
+- Cadastro de usuário
+- Login autenticação 
+- API google Maps
+- Desempenho 
+- Segurança 
+- TLS/SSL  - Criptografia
+- SSH - Acesso remoto
+- HTTPS - Comunicação segura
+- SFTP - Transferência de arquivos
+	- Kerberos - autenticação de rede para comunicação de nós
+- Usabilidade
+- Protocolos de comunicação
+	- HTTPS - Hyper Text Transfer Protocol Security	
+- FTP - File Transfer Protocol
+- SMTP - Envio e-mail CRM
+	- Escalabilidade para poder gerir excesso de requisições 
+- Micro serviços
+ 	
+- Escalabilidade Vertical (Adição de servidores)
+- CDN - Content Delivery conteúdo estático no cliente
+- Manutenibilidade, padrões de código, protocolos, armazenamento
+- Responsividade de layout (compatibilidade múltiplos device)
+- Tempo de resposta da página, diminuir excesso de requisições
+
+Essas narrativas de casos de uso e listagem de requisitos funcionais e não funcionais facilitam a compreensão das operações do EcoolTech, servindo como uma base de referência para o desenvolvimento e testes do sistema. Ao documentar cada etapa do uso do sistema e suas variáveis, as narrativas asseguram que o EcoolTech atenda aos requisitos de usabilidade, segurança e funcionalidade com clareza e precisão.
+
+ 
+Figura 5. Elaborada pelos autores
+  
+Figura 6. Elaborada pelos autores
+
+Conforme planejado, o EcoolTech implementou duas funcionalidades fundamentais para garantir uma experiência intuitiva e eficiente aos usuários: o sistema de recuperação de conta e a funcionalidade de consulta de ecopontos. Os diagramas de máquina de estados representam o fluxo dessas operações, destacando os principais estados e transições que refletem as interações do usuário e as respostas do sistema.
+
+Recuperação de Conta
+O diagrama de máquina de estado de recuperação de conta, demonstrado na Figura 5, reflete o fluxo de ações iniciado quando um usuário precisa redefinir sua senha. O processo começa com o preenchimento do formulário de redefinição, seguido da validação de dados. Em caso de sucesso, o sistema permite ao usuário redefinir sua senha, garantindo o acesso seguro à sua conta. Se o e-mail fornecido já estiver cadastrado, o sistema alerta o usuário, possibilitando a correção das informações antes de reenviar o formulário. Em situações de erro ou tempo de recuperação expirado, o sistema guia o usuário para tentar novamente, assegurando uma experiência de recuperação de conta intuitiva e eficaz.
+Este processo de recuperação foi projetado com redundância para corrigir erros de entrada e fornecer instruções claras, promovendo segurança e usabilidade. Com isso, o sistema é robusto  o suficiente para gerenciar falhas temporárias, enquanto orienta o usuário a retomar o processo de forma adequada.
+Consulta de Ecopontos
+O diagrama de máquina de estado de consulta de ecopontos, demonstrado na Figura 6, ilustra o fluxo de interação quando o usuário solicita informações sobre pontos de descarte próximos. Após clicar na opção "Localizar Ecopontos", o sistema aciona uma requisição à API do Google Maps. Em caso de sucesso, um link para o mapa interativo é gerado, direcionando o usuário para a visualização dos ecopontos. Caso ocorra uma falha na requisição, o sistema exibe uma mensagem com a opção de nova tentativa, proporcionando resiliência ao processo de localização de ecopontos e garantindo que o usuário possa corrigir eventuais problemas.
+A implementação desta funcionalidade possibilita que o EcoolTech ofereça informações atualizadas e acessíveis sobre ecopontos, reforçando o compromisso do projeto com a conscientização ambiental. Esse processo permite aos usuários acessarem dados precisos e confiáveis sobre os pontos de descarte de resíduos eletrônicos, contribuindo para o engajamento com a causa ecológica.
+Os diagramas de caso de uso e de classes detalham a estrutura do sistema EcoolTech, destacando funcionalidades principais, como cadastro de usuários, gerenciamento de conteúdo e consulta de ecopontos. O diagrama de classes abrange entidades como Usuário, Administrador e Conteúdo, com interações detalhadas conforme os requisitos do sistema.
+O diagrama de sequência representa a interação entre os principais atores do sistema — Usuário, Sistema EcoolTech, API de Geolocalização e Administrador — ao longo de fluxos de ações essenciais de cada ator envolvido. Esse diagrama detalha a troca de mensagens e o fluxo de informações entre os componentes para a execução de funcionalidades-chave, como o cadastro de usuários, autenticação, consulta de ecopontos e gerenciamento de conteúdo.
+
+ 
+Cadastro e Login de Usuários:
+O fluxo de cadastro ilustra a sequência em que o usuário envia seus dados para criar uma nova conta. O sistema valida essas informações e, em caso de sucesso, confirma o cadastro com uma mensagem de boas-vindas. Esse processo também contempla mensagens de erro para dados inválidos, reforçando a usabilidade e a segurança do sistema.
+O fluxo de login segue com o usuário inserindo suas credenciais, e o sistema validando-as. Caso as informações estejam corretas, o acesso é concedido. Em caso de erro, mensagens específicas são enviadas para o usuário, orientando-o a corrigir as informações.
+Consulta de Ecopontos Próximos:
+Este fluxo reflete a interação entre o usuário, o sistema EcoolTech e a API de Geolocalização. Quando o usuário solicita informações sobre ecopontos próximos, o sistema comunica-se com a API, que fornece a localização dos ecopontos disponíveis. Essa sequência termina com a exibição de um mapa interativo, permitindo ao usuário visualizar e navegar até os pontos de coleta mais próximos.
+O diagrama de sequência também considera cenários alternativos, como falhas de conexão com a API ou ausência de ecopontos na região, onde o sistema exibe mensagens de erro para manter o usuário informado.
+Gerenciamento de Conteúdo pelo Administrador:
+O diagrama também abrange as ações realizadas pelo Administrador, como o acesso ao painel de gerenciamento de conteúdo, onde ele pode criar, editar ou excluir informações relevantes. Cada ação segue um fluxo de confirmação para evitar operações indesejadas e garantir que as alterações sejam feitas de forma precisa.
+Além disso, o administrador pode visualizar estatísticas de uso e enviar alertas para os usuários registrados, assegurando que a plataforma se mantenha relevante e atualizada, além de promover a missão educativa do EcoolTech.
+ Envio de Alertas e Notificações:
+O fluxo de envio de alertas exemplifica a interação entre o administrador e o sistema EcoolTech para comunicar eventos, atualizações de conteúdo ou informações relevantes sobre novos ecopontos. Essa funcionalidade mantém os usuários informados e engajados com a plataforma, reforçando o objetivo educacional do EcoolTech.
+O diagrama de sequência (Figura 7) essencial para definir e refinar os fluxos de interação do sistema. Ele permitiu que a equipe visualizasse de maneira clara o caminho que cada informação percorre dentro do EcoolTech, ajudando a identificar possíveis pontos de falha ou gargalos. Além disso, ao documentar as interações em uma sequência lógica, o diagrama facilitou a implementação dos testes automatizados, especialmente na estratégia de Integração Contínua (CI), onde cada fluxo pôde ser validado para assegurar a consistência do sistema.
+  
+Figura 7 – Elaborada pelos autores.
+ 
+O plano de testes (Figura 8) foi desenvolvido como uma etapa essencial para assegurar a qualidade e o bom funcionamento do sistema EcoolTech. Essa estratégia abrange testes unitários, de integração e de sistema, cobrindo todas as funcionalidades críticas e garantindo que o sistema atenda aos requisitos funcionais e não funcionais documentados.
+A abordagem utilizou a metodologia de Desenvolvimento Guiado por Testes (TDD), onde os casos de teste foram definidos antes da implementação de cada funcionalidade. Além disso, ferramentas de Integração Contínua (CI) como Jenkins e GitHub Actions foram empregadas para automatizar o processo de testes e validações a cada nova iteração do sistema.
+Essa estrutura permitiu identificar inconsistências e gargalos precocemente, reduzindo custos com correções posteriores e assegurando que todas as funcionalidades, como o cadastro de usuários, autenticação e consulta de ecopontos, fossem verificadas de forma rigorosa. Além disso, o plano de testes contribuiu para a escalabilidade do sistema, permitindo que novos recursos sejam integrados com maior confiança e mantendo a estabilidade das operações existentes.
+
+
+
+
+
+
+
+  
+Figura 8 – Elaborada pelos autores.
+ 
+Ao documentar o plano de testes de forma detalhada, o projeto EcoolTech se prepara não apenas para os desafios do presente, mas também para adaptações futuras, oferecendo um sistema robusto e confiável para seus usuários.
+A inclusão deste diagrama também contribui para a escalabilidade e manutenibilidade do EcoolTech. Com ele, futuros desenvolvedores poderão compreender rapidamente os fluxos internos do sistema, facilitando a integração de novas funcionalidades ou serviços. Assim, o diagrama de sequência não apenas documenta o funcionamento atual do sistema, mas também prepara o EcoolTech para adaptações e melhorias contínuas.
+A próxima etapa do projeto EcoolTech incluirá a introdução de funcionalidades que expandem significativamente a proposta original da plataforma, tanto em termos de alcance educacional quanto de engajamento do usuário. O formulário de conscientização permitirá obter dados relevantes sobre o nível de conhecimento dos usuários a respeito do descarte de resíduos eletrônicos. Essa coleta de informações possibilitará identificar perfis, ajustar conteúdos e propor melhorias orientadas por evidências.
+A funcionalidade de gamificação, por sua vez, terá papel estratégico na aproximação com o público escolar, especialmente crianças e professores. Ao aplicar conceitos de recompensa e desafio em atividades relacionadas à sustentabilidade, espera-se aumentar o interesse e a retenção do conhecimento transmitido, promovendo a aprendizagem de maneira lúdica e motivadora.
+Por fim, a inserção da seção de comentários deverá fortalecer a dimensão colaborativa da plataforma. A possibilidade de interação direta entre os usuários promoverá o compartilhamento de experiências, sugestões e boas práticas, contribuindo para a formação de uma comunidade engajada com os princípios do EcoolTech. A expectativa é de que essas adições consolidem ainda mais a 
+ plataforma como um espaço não apenas informativo, mas participativo e transformador.
+
+5. CONSIDERAÇÕES FINAIS:
+O projeto EcoolTech representa um avanço significativo na conscientização e na educação ambiental em torno do descarte de resíduos eletrônicos. Em uma sociedade cada vez mais dependente de dispositivos tecnológicos, o problema do descarte inadequado de equipamentos obsoletos se agrava, colocando em risco a saúde ambiental e pública. O Web Site EcoolTech foi desenvolvido com o propósito de mitigar esses impactos, promovendo uma plataforma interativa que orienta a população sobre as melhores práticas para o descarte de e-waste e oferece informações sobre ecopontos para a destinação correta desses resíduos.
+Durante o desenvolvimento, adotamos metodologias ágeis, como o Scrum, e integramos ferramentas de versionamento e comunicação que asseguraram uma colaboração eficiente e um controle de qualidade contínuo. O uso de GitHub e Trello, aliado a práticas de integração contínua (CI) e desenvolvimento guiado por testes (TDD), proporcionou um fluxo de trabalho organizado e ágil, permitindo que as funcionalidades fossem implementadas de maneira modular e conforme planejado. As principais funcionalidades, incluindo cadastro de usuários, login seguro, consulta de ecopontos via API do Google Maps e o gerenciamento de 
+conteúdo por administradores, foram estruturadas para atender aos requisitos de usabilidade e segurança, garantindo uma experiência de uso intuitiva e eficiente para o público-alvo.
+O projeto enfrentou desafios técnicos, principalmente em relação à integração de APIs externas e à adaptação contínua a novos requisitos. Esses obstáculos, no entanto, impulsionaram o desenvolvimento das habilidades técnicas e de resolução de problemas da equipe, resultando em um produto final que atende tanto às necessidades ambientais quanto às expectativas tecnológicas atuais. A modelagem detalhada de casos de uso e a documentação das funcionalidades garantiram que o EcoolTech fosse construído de acordo com um padrão de alta qualidade, com uma estrutura escalável e de fácil manutenção.
+ Como perspectivas futuras, o EcoolTech pode ser ampliado para incluir funcionalidades como gamificação para incentivar ainda mais o engajamento dos usuários e a formação de parcerias com empresas e instituições de reciclagem. Além disso, a plataforma possui potencial para abranger uma rede maior de ecopontos e fornecer informações atualizadas sobre eventos e iniciativas ambientais, expandindo sua atuação no âmbito educacional e sustentável.
+Assim, o EcoolTech cumpre seu papel como uma ferramenta de educação e ação ambiental, proporcionando aos usuários meios práticos e acessíveis para contribuir com a redução do impacto ambiental causado pelo descarte inadequado de resíduos eletrônicos. A continuidade e o aprimoramento desse projeto são passos fundamentais para ampliar a conscientização e promover uma cultura de sustentabilidade, essencial para um futuro mais saudável e equilibrado.
+Nesta nova fase, o EcoolTech se expande não apenas em termos técnicos, mas também em seu alcance educacional e social. A introdução de novas funcionalidades como o formulário de conscientização, a gamificação educacional e a seção de comentários fortalece a missão do projeto de transformar informação em ação. Por meio dessas iniciativas, a plataforma passa a oferecer não apenas conteúdos informativos, mas também mecanismos de participação ativa, aprendizagem lúdica e construção coletiva de conhecimento.
+O EcoolTech continua, assim, sua trajetória como uma ferramenta digital inovadora voltada para a sustentabilidade, demonstrando que a tecnologia, quando aliada à educação e ao engajamento social, pode desempenhar um papel essencial na formação de uma sociedade mais consciente e responsável. As melhorias propostas para este semestre reforçam o compromisso do projeto com a evolução contínua, a inclusão de novos públicos e a ampliação do impacto positivo na comunidade.
+
+
+
+ 
+PROJETO DE VIDA
+O projeto Ecooltech nasce de um desejo profundo de promover mudanças significativas na maneira como a sociedade lida com o lixo eletrônico, um dos maiores desafios ambientais do nosso tempo. A missão desse projeto é criar uma plataforma acessível e educativa, onde o conhecimento sobre o descarte correto de resíduos eletrônicos possa ser compartilhado e, assim, contribuir para a construção de um futuro mais sustentável. O objetivo central é não apenas sensibilizar, mas também proporcionar soluções práticas e informações claras sobre os impactos desse tipo de lixo no meio ambiente e na saúde pública.
+O propósito da Ecooltech é garantir que a conscientização sobre o descarte adequado de lixo eletrônico se torne um hábito cotidiano, e não mais uma preocupação secundária. A meta é, com o tempo, a plataforma se torne um ponto de referência, um espaço onde cidadãos, estudantes, profissionais e empresas possam se unir em torno de um propósito comum: preservar o meio ambiente por meio de práticas responsáveis.
+O grupo buscou e consolidou parcerias, com a ideia de criar uma rede colaborativa, onde cada parte envolvida atue de maneira coordenada para facilitar o processo de reciclagem e dar mais visibilidade às alternativas sustentáveis. Isso inclui, por exemplo, o mapeamento de pontos de coleta de lixo eletrônico e a organização de eventos e workshops educativos, para envolver a comunidade local e estudantes no tema.
+O impacto desejado é que a Ecooltech se torne não apenas uma ferramenta informativa, mas um catalisador de mudanças reais no comportamento da sociedade. A meta não é apenas educar, mas inspirar ações. E essas ações precisam refletir a urgência e a importância da questão ambiental. O propósito geral é deixar um legado positivo, onde a tecnologia, que tantas vezes é vista como um vilão por contribuir para o aumento do lixo eletrônico, se transforme também em uma aliada na busca por soluções mais limpas e eficientes.
+
+
+ 
+Ao longo dos anos, a Ecooltech conseguirá engajar e sensibilizar um número crescente de pessoas, para que o descarte responsável de lixo eletrônico se torne uma prática natural. Mas mais do que isso, quero que o projeto inspire outros a criar iniciativas semelhantes, formando uma rede global de conscientização e ação que impacte positivamente o planeta e as gerações futuras.
+Esse é o propósito que guia o desenvolvimento da Ecooltech e que, ao longo do tempo, se tornará uma missão cumprida: ajudar a transformar a relação da sociedade com a tecnologia, criando um futuro mais equilibrado, onde o avanço tecnológico caminhe lado a lado com a sustentabilidade.
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Referências:
+ALUMUR, S. A.; NÍQUEL, S.; SALDANHA-DA-GAMA, F.; VEDAT, V. Projeto de rede de logística reversa multiperíodo. ScienceDirect, [S.l.], 2012. Disponível em: https://www.sciencedirect.com. Acesso em: 2024.
+ARAÚJO, D. R. R.; OLIVEIRA, J. D.; SELVA, V. F.; SILVA, M. M.; SANTOS, S. M. Geração de resíduos domésticos de equipamentos eletroeletrônicos na Ilha de Fernando de Noronha: aspectos qualitativos e quantitativos. Ciência Ambiental e Pesquisa em Poluição, [S.l.], 2017. Disponível em: https://springer.com. Acesso em: 2024.
+FARIAS, A. S. Análise da contaminação do solo por metais potencialmente tóxicos em locais de reciclagem de resíduos eletrônicos. Biblioteca Digital da Produção Intelectual Discente, Universidade de Brasília, 2023. Disponível em: https://www.unb.br. Acesso em: 2024.
+FORTI, V.; BALDÉ, K.; KUEHR, R. RZ_EWaste_Guidelines_LoRes.pdf. United Nations University, [S.l.], 2020. Disponível em: https://unu.edu. Acesso em: 2024.
+LIMA, V. F.; MERÇON, F. Metais pesados no ensino de química. Química Nova na Escola, [S.l.], v. 33, n. 4, p. 199–204, 2011. Disponível em: http://qnesc.sbq.org.br/online/qnesc33_4/199-CCD-7510.pdf. Acesso em: 2024.
+MARQUES, A. C. Printed circuit boards: A review on the perspective of sustainability. ScienceDirect, [S.l.], 2013. Disponível em: https://www.sciencedirect.com. Acesso em: 2024.
+ROY, H.; RAHMAN, T. U.; SUHAN, M. B. K.; AL-MAMUN, M. R.; HAQUE, S.; ISLAM, M. S. A comprehensive review on hazardous aspects and management strategies of electronic waste: Bangladesh perspectives. Heliyon, [S.l.], 2022. Disponível em: https://www.cell.com/heliyon. Acesso em: 2024.
+SANTOS, S. M.; OGUNSEITAN, O. A. E-waste management in Brazil: Challenges and opportunities of a reverse logistics model. ScienceDirect, [S.l.], 2022. Disponível em: https://www.sciencedirect.com. Acesso em: 2024.
+ 
+SHAHABUDDIN, M.; UDDIN, M. N.; CHOWDHURY, J. I.; AHMED, S. F.; UDDIN, M. N.; MOFJUR, M.; UDDIN, M. A. A review of the recent development, challenges, and opportunities of electronic waste (e-waste). Journal of Material Cycles and Waste Management, [S.l.], 2023. Disponível em: https://doi.org/10.1007/s13762-022-04274-w. Acesso em: 2024.

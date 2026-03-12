@@ -1,0 +1,62 @@
+Análise do Projeto TCC: EcoolTech
+
+1. Tópicos para Melhoria
+
+1.1. Fundamentação Teórica e Citações
+
+•
+Padronização de Citações: O texto apresenta inconsistências no formato das citações (ex: "M. Shahabuddin at al, 2023", "Hridoy at al, 2022", "André at al, 2013"). O correto em normas ABNT é "(SOBRENOME et al., ANO)".
+
+•
+Atualização de Dados: Algumas projeções param em 2024 ou 2030, mas o texto menciona o ano de 2026 como o atual do projeto. Seria ideal buscar dados mais recentes de 2024/2025 se disponíveis.
+
+1.2. Metodologia e Tecnologias
+
+•
+Conflito de Ferramentas de Mapas: Na página 16 menciona "API do Google Maps", mas na página 28 menciona "API do LeafLet Maps". É necessário decidir qual foi realmente utilizada ou se ambas coexistem para propósitos diferentes.
+
+•
+Detalhamento de Big Data: A seção de Big Data menciona Apache Hadoop, Spark, Amazon S3 e Power BI. Para um projeto de graduação, é importante deixar claro se essas ferramentas foram realmente implementadas ou se são apenas uma proposta de arquitetura. O texto oscila entre "foi implementada" e "serão utilizadas".
+
+•
+IA e Chatbot: O plano de testes menciona um "Chat bot com IA", mas essa funcionalidade não foi detalhada na seção de Metodologia ou Arquitetura.
+
+1.3. Resultados e Discussão
+
+•
+Análise de Dados: Os resultados apresentados (146 acessos, 57 usuários) são bons para um protótipo, mas a análise poderia ser mais profunda, relacionando os dados com as hipóteses iniciais do projeto.
+
+
+
+
+2. Tópicos que Devem ou Podem ser Excluídos
+
+2.1. Redundâncias na Metodologia
+
+•
+Ferramentas de Comunicação: A descrição detalhada do uso do Google Meet e Microsoft Teams (pág. 7) é muito operacional e pouco acadêmica. Pode ser resumida em um parágrafo sobre "Ferramentas de Colaboração".
+
+•
+Repetição de Processos: A descrição de que "todas as funcionalidades seguem os mesmos processos de desenvolvimento" (pág. 11) se repete várias vezes. Pode ser consolidada.
+
+2.2. Requisitos Não Funcionais Excessivos
+
+•
+Protocolos de Rede: A lista de requisitos não funcionais (pág. 25-26) inclui SSH, SFTP, Kerberos, FTP. A menos que o projeto tenha implementado uma infraestrutura de rede complexa, esses itens parecem "enchimento" (boilerplate) e podem ser removidos para focar no que é essencial ao sistema web.
+
+2.3. Narrativas de Casos de Uso Simples
+
+•
+Casos de Uso Óbvios: Narrativas detalhadas para "Login" e "Redefinição de Senha" (pág. 19-20) são padrões de mercado. Se o trabalho estiver muito longo, estas podem ser resumidas ou apenas citadas no diagrama, focando o detalhamento nos casos de uso específicos do negócio (Consulta de Ecopontos, Gamificação).
+
+
+
+
+3. Sugestões de Estruturação
+
+•
+Unificação da Arquitetura: Criar um tópico único de "Arquitetura do Sistema" que englobe o Back-end, Front-end e o módulo de Big Data, evitando a fragmentação atual.
+
+•
+Conclusão: Reforçar o impacto social do projeto, além do técnico.
+
